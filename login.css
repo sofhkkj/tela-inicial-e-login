@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #6a5acd;
+  }
+
+  h1 {
+    text-align: center;
+    color: #DCDCDC
+  }
+
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffff
+  }
+div{
+    background-color: rgb(64, 37, 109);
+    width: 390px;
+    height: 390px;
+    
+}
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(112, 77, 167);
+    color: #DCDCDC;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #6a5acd;
+  }
